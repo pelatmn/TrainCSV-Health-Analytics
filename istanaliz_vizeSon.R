@@ -1,5 +1,4 @@
-# train_vize2 <- read_excel("C:/Users/Pelin/Desktop/train_vize2.xlsx")
-# 
+
 # rasgele_ornek <- sample(train_vize2,2000,replace = FALSE)
 write.csv(train_vize2[rasgele_ornek,], file = "rasgele_ornek.csv", row.names = FALSE)
 veri_odev <- read.csv("rasgele_ornek.csv")
